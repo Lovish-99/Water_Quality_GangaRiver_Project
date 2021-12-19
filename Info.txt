@@ -1,0 +1,16 @@
+-----------------------------------------------------------------------------------------------------------------------------
+Automated Scripts Site-I folder contains the scraping file and shape file for the Site 1 and also contains the csv file of the scraped data. The data is scraped 
+with the help of python language.
+Libraries that I used for that part are :-
+time, datetime, hashlib, urllib, BeautifulSoup, pandas, numpy, os, csv, seaborn & matplotlib.pyplot
+
+------------------------------------------------------------------------------------------------------------------------------
+Automated Scripts Site-II folder contains the scraping file and shape file for the Site 2 and also contains the csv file of the scraped data. The data is scraped 
+with the help of python language.
+Libraries that I used for that part are :-
+time, datetime, hashlib, urllib, BeautifulSoup, pandas, numpy, os, csv, seaborn & matplotlib.pyplot
+
+-------------------------------------------------------------------------------------------------------------------------------
+Water Analysis API folder contains the application made on django framework for displaying the scraped data in a popup on a map using the 
+"folium and openlayer library". Database is created for the application so that when we choose any option in a select tag , then it passes in a database 
+and from there it goes in my view.py django file.

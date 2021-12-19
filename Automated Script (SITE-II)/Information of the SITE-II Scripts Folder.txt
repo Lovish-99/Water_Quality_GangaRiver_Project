@@ -1,0 +1,32 @@
+-----------------------------------------Details of the respective folders and files in Task-1----------------------------------------------
+
+
+Task-5 :- Data from http://125.19.52.218/realtime  - 
+          i) Make a scrapping script to download every datasets available on screen for each location. 
+          ii) Further work - Notify if new data has come in (check everyday).
+          
+       
+In Task-5 Folder there are following folders and files:-
+
+1) LocationFile folder : contains the shape file and QGIS file for the "Location's.csv" file generted from the site. 
+
+2) RunTime : is the created folder that contains the csv files of 'location', and "water parameter's" in the corresponding water parameter 
+   sub-folder.
+   
+3) RunTime.ipynb : file is the python file that scrape data from the site("http://125.19.52.218/realtime ") and generates the required csv 
+   files of that data.
+   
+6) ShapeFile.ipynb : file is the python file that generates the required csv files of the "Location's.csv" File.
+   that data.
+   
+7) WQI_RealTime.ipynb : file is the python file that scrape data from the site("http://125.19.52.218/realtime ") and generates the 
+   required csv files of that data.
+   
+10) ReadWrite_HashCode.ipynb : file is the python file for testing purpose only, it reads the hash code of the site and also write the hash 
+   code of the same site in hashcode.txt, hashcode_2.txt and hashcode_3.txt files.
+   
+11) hash2code.txt : are text files that contains the respective hashcodes of a site for comparison 
+    purpose.
+
+12) There are also 1 csv files in that folder these are the master csv files of all the scraped data for each page present in the site 
+    ("http://125.19.52.218/realtime ").

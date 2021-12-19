@@ -1,0 +1,38 @@
+-----------------------------------------Details of the respective folders and files in Task-1----------------------------------------------
+
+
+Task-1 :- Data from http://125.19.52.219/wqi/ - 
+          i) Make a scrapping script to download every datasets available on screen for each location. 
+          ii) Further work - Notify if new data has come in (check everyday).
+
+Task-1 contains the site: http://125.19.52.219/wqi/ - 
+       And that site has 3 pages, these are :-
+       i) "http://125.19.52.219/wqi/"
+       ii) "http://125.19.52.219/wqi/dinkingB.php"
+       iii) "http://125.19.52.219/wqi/bathing.php"
+       
+       
+In Task-1 Folder there are following folders and files:-
+
+1) location files folder : contains the shape file and QGIS file for the "Location's.csv" file generted from the site. 
+
+2) RunTime, RunTime2 and RunTime3 : are the created folders that contains the csv files of 'location', and "water parameter's" in the 
+   corresponding water parameter sub-folder.
+   
+3) RunTime.ipynb : file is the python file that scrape data from the site("http://125.19.52.219/wqi/") and generates the required csv files 
+   of that data.
+   
+4) RunTime2.ipynb : file is the python file that scrape data from the site("http://125.19.52.219/wqi/dinkingB.php") and generates the 
+   required csv files of that data.
+ 
+5) RunTime3.ipynb : file is the python file that scrape data from the site("http://125.19.52.219/wqi/bathing.php") and generates the 
+   required csv files of that data.
+   
+6) ShapeFile.ipynb : file is the python file that generates the required csv files of the "Location's.csv" File.
+   that data.
+   
+7) ReadWrite_HashCode.ipynb : file is the python file for testing purpose only, it reads the hash code of the site and also write the hash 
+   code of the same site in hashcode.txt, hashcode_2.txt and hashcode_3.txt files.
+   
+8) hashcode.txt, hashcode_2.txt and hashcode_3.txt : are text files that contains the respective hashcodes of a site for comparison 
+    purpose.
